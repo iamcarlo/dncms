@@ -1,0 +1,58 @@
+/* 
+    Document   : layout
+    Created on : Jan 7, 2014, 9:41:39 AM
+    Author     : Aries
+    Description:
+        Purpose of the stylesheet follows.
+
+
+root { 
+    display: block;
+}
+*/
+span {    
+    font-family:verdana;
+    font-size:12px;
+}
+
+a {
+    color:white;
+}
+
+input[type="text"] {    
+    font-family:verdana;
+    font-size:12px;
+
+}
+
+input[type="password"] {
+    font-size:12px;
+
+}
+
+li {    
+    font-family:verdana;
+    font-size:12px;
+}
+
+select {    
+    font-family:verdana;
+    font-size:12px;
+
+}
+
+body {    
+    background:white;
+    margin:0px;
+    font-family:verdana;
+    font-size:12px;
+}
+
+table {
+    
+    
+    
+}
+
+
+

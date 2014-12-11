@@ -1,0 +1,157 @@
+/* 
+    Document   : layout
+    Created on : Jan 7, 2014, 9:41:39 AM
+    Author     : Aries
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* ----------------- GENERAL ----------------------- */
+
+#banner { 
+    position:absolute;
+    top:0px;
+    background:#F88017;
+    height:150px;
+    width:100%;
+    color:white; 
+    z-index:-1;
+}
+
+#banner-title {
+    position:relative;
+    top:5px;
+    left:10px;
+    font-size:18px;
+    color:white;
+}
+
+#main-container { 
+    margin-top:40px;
+    margin-left:20px;
+    margin-right:20px;
+
+}
+
+#main-header {
+    background:grey;
+    border-radius: 10px 10px 0px 0px ;    
+    height:30px;    
+}
+
+#main-body {
+    width:auto;
+    background:white;
+    height:500px;  
+    border-radius: 0px 0px 10px 10px ; 
+}
+
+/* ----------------- LOGIN ----------------------- */
+
+#login {
+    position:absolute;
+    top:250px;
+    left:30px;
+    border-radius: 5px;
+    background:grey;
+    border:solid thin black;
+    width:220px;
+    z-index:11;    
+}
+
+#login td{
+    color:black;
+    font-family:verdana;
+    font-size:12px;
+}   
+
+#img-headset{
+    position:absolute;
+    z-index: 6;
+    opacity:0.2;
+    top:120px;
+    left:70px;   
+}
+
+
+
+#tnc-header {
+    background:grey;
+    position:absolute;
+    top: 80px;
+    right:30px;
+    border:solid thin black;    
+    width:600px;
+    height:20px;
+}
+
+#tnc-body {
+    
+    position:absolute;
+    top: 105px;
+    right:30px;
+    border:solid thin black; 
+    overflow-y: auto; 
+    width:600px;
+    height:420px;
+}
+
+#login-submit {
+    background:grey; 
+    position:absolute;
+    top: 530px;
+    right:30px;
+    width:600px;
+    border:solid thin black;    
+}
+
+
+/* ----------------- MAIN ----------------------- */
+
+#fullname {
+    position:absolute;
+    top:50px;
+    right:30px;
+    color:white;
+    
+}
+
+#section-container {
+
+    margin-top:0px;    
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    
+    border:solid thin black;
+    
+}
+
+
+#section-list {
+    position:absolute;
+    top:120px;
+    left:40px;   
+    width:700px;
+    height:400px;   
+    
+    
+}
+
+#section-details {
+    position:absolute;
+    top:120px;
+    left:800px;
+    width:300px;
+    height:400px;    
+    border:solid thin black;    
+    
+    
+}
+
+#a{
+    position:absolute;
+    top:120px;
+    left:300px;
+    
+}
